@@ -5,9 +5,13 @@ body {
 }
 
 p {
-  font-family: georgia, "Times New Roman", serif;
+  font-family:Arial, Helvetica, sans-serif;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 22px;
+  font-weight: 100;
+}
+a:visited {
+  color:#CDB984;
 }
 
 .btn {
@@ -22,7 +26,10 @@ p {
   border: none;
   color: #ffe8d6;
   border-radius: 4px;
+  
 }
+
+
 .btn:hover {
   color: #fff;
   border-color: #6b705c;
@@ -67,7 +74,7 @@ p {
   width: 100%;
   background: #231f20;
   background-size: cover;
-  margin-top: 96px;
+  margin-top: px;
   text-align: center;
   padding: 80px 2em;
 }
@@ -108,7 +115,7 @@ p {
   padding: 160px;
 }
 .content {
-  border: 2px solid #efcea5;
+  border:  3px solid #efcea5;
   position: relative;
   padding: 60px 1em;
   display: grid;
@@ -143,6 +150,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: auto;
 }
 .item1 {
   color: #efcea5;
@@ -159,9 +167,7 @@ p {
   color: #efcea5;
 }
 .habilits {
-  margin-top: 150px;
-  margin-left: 200px;
-  margin-bottom: 200px;
+  margin: 150px 200px ;
   font-size: 45px;
   color: #fff;
   font-weight: italic;
@@ -197,7 +203,8 @@ p {
 }
 .habilidade p {
   color: #fff;
-  text-align: center, left;
+  text-align: left;
+
 }
 /*Quebra*/
 
@@ -217,7 +224,7 @@ p {
   width: 100%;
   background: #231f20;
   color: #9e9498;
-  padding: 20px 0;
+  padding: 10px;
 }
 
 .footer h3 {
@@ -249,7 +256,7 @@ p {
 }
 
 .footer_contato ul li {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:'Courier New', Courier, monospace;
     font-size: 15px;
     font-weight:400px;
   line-height: 15px;
@@ -271,7 +278,7 @@ p {
 .copy {
   width: 100%;
   background: #6b705c;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 /*Pagina skins */
@@ -283,7 +290,7 @@ p {
   gap: 1rem;
 }
 .galeria_skin h2 {
-  margin: 10px 0;
+  margin: 10px ;
   color: #efcea5;
 }
 
@@ -292,7 +299,7 @@ p {
 .historia_texto p {
   font-size: 18px;
   letter-spacing: 1.8px;
-  line-height: 1.8rem;
+  line-height: 1.8;
   text-align: left;
   color: #f4edee;
   padding: 3.5rem;
@@ -305,15 +312,15 @@ p {
   text-transform: uppercase;
 }
 .historia_texto h2 {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   font-size: 20px;
   color: #efcea5;
 }
 .historia_texto {
-  margin-top: 60px;
+  margin-top: 0px;
 }
 .contente {
-  margin-top: 45px;
+  margin-top: 40px;
   border: 2px solid #efcea5;
   position: relative;
   padding: 60px 4rem;
@@ -327,16 +334,16 @@ p {
   width: 300px;
   height: 100px;
   background: #231f20;
-  position: absolute;
+  position: relative;
   top: -60px;
   left: 35.5%;
+
 }
 
 
 /*combos*/
 
 .videos {
-padding-top: 100px;
 padding-bottom: 50px ;
 }
 
@@ -353,33 +360,24 @@ padding-bottom: 50px ;
 }
 
 
-
-.combos_icones img {
-width: 45px;
-margin:auto;
-
-}
-
 .combos_icones ul {
 display: flex;
 justify-content: center;
-margin-top:15px;
+align-items: center;
+gap: 0.2rem;
+margin-top: 15px;
 }
+
+
+.combos_icones img {
+  width: 45px;
+  margin:auto;
+  
+  }
 
 .combos_icones p {
 color:#fff;
 margin-top: 15px;
 margin-left: 3px;
-}
-
-.combos_icones h3 {
- margin-bottom:50px;
- margin-top:25px;
- color: #6B705C;
-font-family: sans-serif;
-font-weight: bold;
-text-align: center;
-line-height: 0.35px;
-
 
 }
